@@ -15,3 +15,6 @@ console.log('\nStarting the miner...');
 rosCoin.minePendingTransactions(myWalletAdd);
 
 console.log('\nBalance of Ros is ', rosCoin.getAddBalance(myWalletAdd));
+
+console.log(rosCoin.isChainValid());
+
